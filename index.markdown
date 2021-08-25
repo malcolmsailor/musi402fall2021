@@ -6,4 +6,4 @@ layout: page
 ---
 
 Welcome to the webpage for {{site.title}}. All electronic materials for this
-course can be found on this page.
+course will be found on this page.
