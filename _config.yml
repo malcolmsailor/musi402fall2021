@@ -42,6 +42,7 @@ header_pages:
   - handouts.md
   - assignments.md
   - playlists.md
+  - misc_downloads.md
 # defaults:
 #   - scope:
 #       path: "assets/handouts"
