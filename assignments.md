@@ -1,21 +1,17 @@
 ---
 title: Assignments
 layout: page
-assignments:
-#   - date: 2021-08-21
-#     number: 1
-#     path: assignment1.pdf
 ---
 
-{% if page.assignments %}
+{% if site.data.assignments %}
 
-<ol>
-{% for assignment in page.assignments %}
+<ul>
+{% for assignment in site.data.assignments %}
     <li>
-        <a href="{{ assignment.url }}"> Assignment {{assignment.number}} ({{assignment.date | date: '%B %d' }})</a>
+        <a href="assets/assignments/{{ assignment.basename }}"> Assignment {{assignment.assignment_no}}</a> Due: {{assignment.assignment_date}}
     </li>
 {% endfor %}
-</ol>
+</ul>
 {% else %}
 
 ### Coming soon...
