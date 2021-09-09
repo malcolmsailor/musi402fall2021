@@ -4,6 +4,8 @@ layout: page
 playlists:
   - date: 2021-09-09
     url: https://open.spotify.com/playlist/0FCp6ihXYtka08X3JVjs6Q?si=28c8feec552f4296
+  - date: 2021-09-16
+    url: https://open.spotify.com/playlist/7p79JCm0z9uB8U7SxY3nLD?si=d56e80ea68aa4118
 ---
 
 Links open in Spotify. There is also a [playlist containing the tracks from all weeks](https://open.spotify.com/playlist/5LFat7Qmw1ZC7gaaytLaxX?si=ee3f9faa5cd84c55){:target="\_blank" rel="noreferrer noopener"}.
