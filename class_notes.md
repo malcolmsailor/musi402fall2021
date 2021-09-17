@@ -6,6 +6,10 @@ class_notes:
     number: 1
     title:
     path: class_1_notes.pdf
+  - date: 2021-09-16
+    number: 5
+    title: Diminutions
+    path: class_5_notes.pdf
 ---
 
 {% if page.class_notes %}
