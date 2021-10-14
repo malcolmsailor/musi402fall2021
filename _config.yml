@@ -40,6 +40,7 @@ header_pages:
   - handouts.md
   - assignments.md
   - playlists.md
+  - examples.md
   - misc_downloads.md
 # defaults:
 #   - scope:
