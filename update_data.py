@@ -28,7 +28,6 @@ for basename in os.listdir(dir):
         with open(os.path.join(dir, basename), "r", encoding="utf-8") as inf:
             front_matter = next(yaml.load_all(inf, Loader=yaml.FullLoader))
         front_matter["basename"] = basename[:-3] + ".pdf"
-        breakpoint()
         out.append(front_matter)
     if subdir == "sketches" and basename.endswith(".pdf"):
         # should be a sketch, with following naming format:
