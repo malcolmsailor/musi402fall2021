@@ -10,6 +10,10 @@ class_notes:
     number: 5
     title: Diminutions
     path: class_5_notes.pdf
+  - date: 2021-10-26
+    number: 15
+    title: Example midterm
+    path: class_15_notes.pdf
 ---
 
 {% if page.class_notes %}
