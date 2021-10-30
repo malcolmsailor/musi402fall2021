@@ -14,6 +14,10 @@ class_notes:
     number: 15
     title: Example midterm
     path: class_15_notes.pdf
+  - date: 2021-10-28
+    number: 16
+    title: In-class example midterm (fragment)
+    path: class_16_notes.pdf
 ---
 
 {% if page.class_notes %}
