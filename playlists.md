@@ -18,6 +18,8 @@ playlists:
     url: https://open.spotify.com/playlist/4mkHOPsFJHT7VQknikOAFo?si=e391828455a94730
   - date: 2021-11-04
     url: https://open.spotify.com/playlist/2t8gjR6SMRNv9kqz81EIkx?si=9cbc05331e124bcf
+  - date: 2021-11-11
+    url: https://open.spotify.com/playlist/0b2RmWbvlATLW7sI8YBjNT?si=dc5bac385cf74126
 ---
 
 Links open in Spotify. There is also a [playlist containing the tracks from all weeks](https://open.spotify.com/playlist/5LFat7Qmw1ZC7gaaytLaxX?si=ee3f9faa5cd84c55){:target="\_blank" rel="noreferrer noopener"}.
