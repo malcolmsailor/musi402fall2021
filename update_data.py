@@ -36,7 +36,7 @@ for basename in os.listdir(dir):
         assignment_no = m.groups()[0]
         date = m.groups()[1].replace("_", " ")
         front_matter = {
-            "assignment_no": assignment_no,
+            "assignment_no": int(assignment_no),
             "date": date,
             "basename": basename,
         }
