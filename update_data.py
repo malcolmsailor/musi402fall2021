@@ -26,7 +26,11 @@ for basename in os.listdir(dir):
         continue
     if basename.endswith(".md"):
         with open(os.path.join(dir, basename), "r", encoding="utf-8") as inf:
-            front_matter = next(yaml.load_all(inf, Loader=yaml.FullLoader))
+            try:
+                front_matter = next(yaml.load_all(inf, Loader=yaml.FullLoader))
+            except StopIteration:
+                print(f"WARNING: {basename} front matter is incomplete or empty, skipping")
+                continue
         front_matter["basename"] = basename[:-3] + ".pdf"
         out.append(front_matter)
     if subdir == "sketches" and basename.endswith(".pdf"):
