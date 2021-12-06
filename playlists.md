@@ -26,6 +26,8 @@ playlists:
 
 Links open in Spotify. There is also a [playlist containing the tracks from all weeks](https://open.spotify.com/playlist/5LFat7Qmw1ZC7gaaytLaxX?si=ee3f9faa5cd84c55){:target="\_blank" rel="noreferrer noopener"}.
 
+The playlist of versions of the B-flat major fugue from WTC 1 is [here](https://open.spotify.com/track/63Hj3FZGGLuBxpWv44Aqpw?si=058526f2ffb84e83).
+
 {% if page.playlists %}
 
 <ol>
