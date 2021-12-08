@@ -9,7 +9,9 @@ import yaml
 """First argument should be "sketches", "handouts" or "assignments."
 """
 
-COURSE_DIR = "/Users/Malcolm/Courses/2021_02_tonal_counterpoint"
+COURSE_DIR = os.path.join(
+    os.environ["HOME"], "Dropbox/Yale_Stuff/2021_02_tonal_counterpoint"
+)
 
 try:
     subdir = sys.argv[1]
